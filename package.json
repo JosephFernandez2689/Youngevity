@@ -1,0 +1,53 @@
+{
+  "name": "youngevity",
+  "version": "1.0.0",
+  "description": "website for health care products",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --watch --mode development",
+    "start-dev": "nodemon server/index.js",
+    "start": "node server/index.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephFernandez2689/Youngevity.git"
+  },
+  "author": "Joseph Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephFernandez2689/Youngevity/issues"
+  },
+  "homepage": "https://github.com/JosephFernandez2689/Youngevity#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "postcss-loader": "^2.1.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "firebase": "^4.12.1",
+    "firebase-admin": "^5.12.0",
+    "material-ui": "^1.0.0-beta.38",
+    "material-ui-search-bar": "^0.4.1",
+    "mongoose": "^5.0.11",
+    "npm": "^5.8.0",
+    "npm-latest-version": "^1.0.2",
+    "react": "^16.2.0",
+    "react-autosuggest": "^9.3.4",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.2.2",
+    "react-select": "^1.2.1",
+    "react-star-rating-component": "^1.4.1",
+    "recompose": "^0.26.0"
+  }
+}
